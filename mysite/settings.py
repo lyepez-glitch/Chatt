@@ -26,7 +26,12 @@ SECRET_KEY = 'django-insecure-6h8i4vy(4aa4o(ub(xgxt%#9n%^szv#mq8y1f-bijcot2(jhw=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'my-django-channels-app-460ab775a5d7.herokuapp.com',
+    'localhost',  # Optional: for local development
+    '127.0.0.1',  # Optional: for local development
+]
+
 
 
 # Application definition
